@@ -55,6 +55,19 @@ public class PatientManagementSystem {
 
                 case 3:
                     // Implement appointment scheduling
+                    private int id;
+    private Patient patient;
+    private Doctor doctor;
+    private String date;
+    private String time;
+    // Add other appointment details and methods as needed
+
+    public Appointment(int id, Patient patient, Doctor doctor, String date, String time) {
+        this.id = id;
+        this.patient = patient;
+        this.doctor = doctor;
+        this.date = date;
+        this.time = time;
                     break;
 
                 case 4:
