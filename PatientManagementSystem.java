@@ -29,7 +29,7 @@ public class PatientManagementSystem {
             System.out.println("2. Add Doctor");
             System.out.println("3. Schedule Appointment");
             System.out.println("4. Exit");
-            System.out.print("Enter your choice: ");
+            System.out.print("Enter user choice: ");
 
             int choice = scanner.nextInt();
             scanner.nextLine();  // Consume newline
